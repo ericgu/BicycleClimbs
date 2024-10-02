@@ -1,0 +1,77 @@
+﻿<navigation:Page 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl" 
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="BicycleClimbsSilverlight.ClimbsPage"
+           mc:Ignorable="d"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="Climbs Page">
+    <Grid Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" Background="White" Grid.Row="0"/>
+        <Grid x:Name="LayoutRoot" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <m:Map CredentialsProvider="AlQjEIpTRbjMU6mmRZ8Tw1M-kMgt1Qs7HBc0XFaa-6WoE_X8Xy9RX3s3ikPWzsu2" 
+                   HorizontalAlignment="Stretch" 
+                   VerticalAlignment="Stretch" 
+                   x:Name="MyMap" 
+                   Grid.Column="1">
+
+                <!-- m:Map x:Name="MyMap" CredentialsProvider="AlQjEIpTRbjMU6mmRZ8Tw1M-kMgt1Qs7HBc0XFaa-6WoE_X8Xy9RX3s3ikPWzsu2" -->
+
+                
+                <m:MapLayer x:Name="PushpinLayer"/>
+                <m:MapLayer x:Name="ClimbPathLayer"/>
+            </m:Map>
+
+            <!--
+        **************************************************************************************************************
+        The below Source is for drawing the menu and can be ignored.
+        **************************************************************************************************************
+        -->
+            <StackPanel Orientation="Vertical" Background="White" Grid.Column="0">
+
+                <Rectangle Height="2" />
+                <TextBlock TextWrapping="Wrap" Text="Choose Region:" Margin="6,0"/>
+                <ComboBox x:Name="Regions" SelectionChanged="Regions_SelectionChanged" Margin="6,0" />
+                <Rectangle Height="11"/>
+                <sdk:Label x:Name="Climb_Information" HorizontalAlignment="Center" Content="Climb Information:"/>
+                <Grid x:Name="InfoGrid" Margin="6,0,7,0" Height="171">
+                	<Grid.RowDefinitions>
+                		<RowDefinition Height="0.234*"/>
+                		<RowDefinition Height="0.17*"/>
+                		<RowDefinition Height="0.152*"/>
+                		<RowDefinition Height="0.14*"/>
+                		<RowDefinition Height="0.14*"/>
+                		<RowDefinition Height="0.164*"/>
+                	</Grid.RowDefinitions>
+                	<Grid.ColumnDefinitions>
+                		<ColumnDefinition Width="0.46*"/>
+                		<ColumnDefinition Width="0.54*"/>
+                	</Grid.ColumnDefinitions>
+                	<TextBlock x:Name="C_ClimbName" Grid.ColumnSpan="2" Text="Climb" FontWeight="Bold" d:LayoutOverrides="Height" TextWrapping="Wrap"/>
+                	<sdk:Label x:Name="C_ClimbLocation" VerticalAlignment="Top" Margin="0,0,22,0" Grid.ColumnSpan="2" Content="Location" Grid.Row="1"/>
+                	<TextBlock x:Name="C_TextBoxLength" TextWrapping="Wrap" Text="1.5 Miles" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Width="59" Height="23" VerticalAlignment="Top"/>
+                	<sdk:Label x:Name="S_Distance" HorizontalAlignment="Left" Content="Length" Grid.Row="2" VerticalAlignment="Top"/>
+                	<sdk:Label x:Name="S_ElevationGain" HorizontalAlignment="Left" Content="Elevation Gain" Grid.Row="3" VerticalAlignment="Top"/>
+                	<TextBlock x:Name="C_TextBoxElevationGain" TextWrapping="Wrap" Text="157 Feet" Grid.Row="3" Grid.Column="1" Width="59" HorizontalAlignment="Right"/>
+                	<sdk:Label x:Name="S_Gradient" HorizontalAlignment="Left" Content="Gradient" Grid.Row="4" VerticalAlignment="Top"/>
+                	<TextBlock x:Name="C_TextBoxGradient" TextWrapping="Wrap" Text="5%" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right"/>
+                	<sdk:Label x:Name="S_GradientMax" HorizontalAlignment="Left" Content="Max Gradient" Grid.Row="5" VerticalAlignment="Top" d:LayoutOverrides="GridBox"/>
+                	<TextBlock x:Name="C_TextBoxMaxGradient" TextWrapping="Wrap" Text="12%" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Right"/>
+                </Grid>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</navigation:Page>

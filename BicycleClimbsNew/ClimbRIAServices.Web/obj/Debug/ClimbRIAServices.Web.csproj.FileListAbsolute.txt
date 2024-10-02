@@ -1,0 +1,5 @@
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\bin\Debug\ClimbRIAServices.Web.dll
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\bin\Debug\ClimbRIAServices.Web.pdb
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\obj\Debug\ClimbRIAServices.Web.dll
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\obj\Debug\ClimbRIAServices.Web.pdb

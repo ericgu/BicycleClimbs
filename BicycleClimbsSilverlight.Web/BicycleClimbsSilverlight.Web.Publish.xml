@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://ftp.bicycleclimbs.com/wwwroot/beta" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="bicycleclimbs.com/beta" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="ericgu" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5phpd3OeuEG1MzgjDgHQEQAAAAACAAAAAAAQZgAAAAEAACAAAABnqMT2xdhpZ46EiNt4oKEQDY5vsmzfz4MmAZcOhyKaXwAAAAAOgAAAAAIAACAAAABSqFCly7gH1U/LtMPOHk9cUy8Z5G+az+lqzO0vG5fARCAAAACYJBwL1iKfpk7jW3UYX7AuulbKXfalOZuno3veKggZEUAAAADw4rnvP1HSt9wO5FvfYD4t89MuhbdR+SpsNC2FfD+2DOE0czLiu8DEpTjBLmVkPSjX4Ss6/9wKbFk3uYhAaUCC" SelectedForPublish="True">
+    <file relUrl="Silverlight.js" publishTime="08/21/2010 22:13:41" />
+    <file relUrl="Views/Home/Index.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Global.asax" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="bin/BicycleClimbsSilverlight.Web.dll" publishTime="09/06/2010 08:00:16" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Shared/LogOnUserControl.ascx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="BicycleClimbsSilverlightTestPage.html" publishTime="08/21/2010 22:13:41" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Home/About.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Account/Register.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Account/ChangePassword.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Account/ChangePasswordSuccess.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Views/Shared/Error.aspx" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="bin/BicycleClimbsSilverlight.Web.pdb" publishTime="09/06/2010 08:00:16" />
+    <file relUrl="Web.config" publishTime="09/06/2010 08:00:18" />
+    <file relUrl="BicycleClimbsSilverlightTestPage.aspx" publishTime="08/21/2010 22:13:41" />
+    <file relUrl="Content/Site.css" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="08/21/2010 22:13:33" />
+    <file relUrl="ClientBin/BicycleClimbsSilverlight.xap" publishTime="09/06/2010 16:01:12" />
+    <file relUrl="Views/Web.config" publishTime="09/06/2010 08:00:18" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="08/21/2010 22:13:33" />
+  </publishProfile>
+</publishData>

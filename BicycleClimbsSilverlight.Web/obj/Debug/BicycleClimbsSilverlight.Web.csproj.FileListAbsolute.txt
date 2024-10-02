@@ -1,0 +1,5 @@
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web\bin\BicycleClimbsSilverlight.Web.dll
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web\bin\BicycleClimbsSilverlight.Web.pdb
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web\obj\Debug\BicycleClimbsSilverlight.Web.dll
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web\obj\Debug\BicycleClimbsSilverlight.Web.pdb

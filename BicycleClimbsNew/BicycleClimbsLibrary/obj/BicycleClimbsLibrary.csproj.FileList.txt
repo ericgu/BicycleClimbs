@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\BicycleClimbsLibrary.dll.config
+bin\Debug\BicycleClimbsLibrary.dll
+bin\Debug\BicycleClimbsLibrary.pdb
+obj\Debug\BicycleClimbsLibrary.dll
+obj\Debug\BicycleClimbsLibrary.pdb

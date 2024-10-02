@@ -1,0 +1,78 @@
+﻿<navigation:Page x:Class="BicycleClimbsSilverlight.TrimPage" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl" 
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="TrimPage Page">
+        <Grid Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Vertical" Background="White" Grid.Row="0">
+                <Grid Margin="10,10,10,10" Height="40">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="50	" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock TextWrapping="Wrap"  Grid.Column="0"  Grid.Row="0" Margin="0,0,0,2"><Run Text="First point:"/></TextBlock>
+                    <Slider x:Name="FirstPointSlider" Grid.Column="1" Grid.Row="0" Value="0" ValueChanged="FirstPointSlider_ValueChanged" Margin="5,0,6,0" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="FirstPointText" Grid.Column="2" Grid.Row="0" Margin="0,0,5,0" VerticalAlignment="Top"><Run Text="1"/></TextBlock>
+                    <TextBlock TextWrapping="Wrap" Grid.Column="0"  Grid.Row="1" Margin="0" VerticalAlignment="Bottom"><Run Text="Last point:"/></TextBlock>
+                    <Slider x:Name="LastPointSlider" Grid.Column="1" Grid.Row="1" Value="0" ValueChanged="LastPointSlider_ValueChanged" VerticalAlignment="Bottom" Margin="5,0,6,0"/>
+                    <TextBlock x:Name="LastPointText" Grid.Column="2" Margin="0,0,5,0" Height="19" VerticalAlignment="Bottom" d:LayoutOverrides="GridBox"><Run Text="1"/></TextBlock>
+                </Grid>
+
+            </StackPanel>
+            <Grid x:Name="LayoutRoot" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <m:Map CredentialsProvider="AlQjEIpTRbjMU6mmRZ8Tw1M-kMgt1Qs7HBc0XFaa-6WoE_X8Xy9RX3s3ikPWzsu2" 
+                   HorizontalAlignment="Stretch" 
+                   VerticalAlignment="Stretch" 
+                   x:Name="MyMap" 
+                   Grid.Column="1"
+                   MouseClick="MyMap_MouseClick">
+
+                    <!-- m:Map x:Name="MyMap" CredentialsProvider="AlQjEIpTRbjMU6mmRZ8Tw1M-kMgt1Qs7HBc0XFaa-6WoE_X8Xy9RX3s3ikPWzsu2" -->
+
+                    <m:MapLayer x:Name="MyLayer">
+                        <m:MapPolyline Stroke="Green" StrokeThickness="2" Locations="20,-20 20,20 -20,-20 -20,20" Opacity="0.7" />
+                    </m:MapLayer>
+
+                </m:Map>
+
+                <!--
+        **************************************************************************************************************
+        The below Source is for drawing the menu and can be ignored.
+        **************************************************************************************************************
+        -->
+                <StackPanel Orientation="Vertical" Background="White" Grid.Column="0">
+
+                    <Rectangle Height="10" />
+                    <TextBlock TextWrapping="Wrap"><Run Text="Route names:"/></TextBlock>
+                    <ComboBox x:Name="RouteNames"  SelectionChanged="RouteNames_SelectionChanged" />
+                    <Button Click="Trim_Click" Tag="AddCenter" Margin="5">
+                        <TextBlock><Run Text="Trim"/></TextBlock>
+                    </Button>
+                    <TextBlock TextWrapping="Wrap"><Run Text="Subset name:"/></TextBlock>
+                    <TextBox x:Name="SubsetName" />
+                    <Button Click="SaveSubset_Click" Tag="AddCenter" Margin="5">
+                        <TextBlock><Run Text="Save Subset"/></TextBlock>
+                    </Button>
+
+                    <TextBlock x:Name="InfoText" Height="100"/>
+
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </navigation:Page>
+

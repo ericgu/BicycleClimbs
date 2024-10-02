@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.375" name="BicycleClimbsData">
+  <DataContextMoniker Name="/BicycleClimbsDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="00ff9fa6-fae6-4568-844d-b6b9de1429f4" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/ClimbFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41ed57a7-3541-4c4e-848b-0a8afad9eeae" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0db3871-8033-4aa3-b3c0-21da8340ef7d" absoluteBounds="3.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40e155bc-1b09-4035-9034-98f3761a442b" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7399fad-da37-43ff-b870-b63bc72b2c54" absoluteBounds="0.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/ClimbPathElevation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27b857d5-8d59-4fab-ab4f-e16aafb6b9c5" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e12b4684-848f-4971-83e6-d8f8b308f69c" absoluteBounds="3.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/ClimbPath" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c848e38-cf70-4606-8441-a0effa016590" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85eae26d-0236-449f-8c3a-0a370433ebe1" absoluteBounds="6.75, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/Climb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5dd5827-5f3c-41ad-8744-fe4b376db6e6" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="312eef98-63fb-470e-882c-3833c90864e6" absoluteBounds="0.75, 6.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/ClimbsCompleted" />
+      <nestedChildShapes>
+        <elementListCompartment Id="203396e1-1588-48a5-9151-86112fb88ab7" absoluteBounds="0.765, 7.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fea443c0-f82a-4a6d-9386-5026df7e01bb" absoluteBounds="3.75, 6.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/Region" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4376d5f0-a214-4ba8-897b-ff16491f5b18" absoluteBounds="3.765, 7.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1002e33-f926-485b-9ae1-7edc519650e8" absoluteBounds="6.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/RideClimb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9445d9d2-3a11-4c96-a2ae-9186732060d9" absoluteBounds="6.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="871605fb-cee9-46e2-b485-9c4f557b8965" absoluteBounds="6.75, 8.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/BicycleClimbsDataDataContext/Ride" />
+      <nestedChildShapes>
+        <elementListCompartment Id="955dbd2e-f9c5-4f58-ac6f-b154a5c00e76" absoluteBounds="6.765, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

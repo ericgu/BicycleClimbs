@@ -1,0 +1,876 @@
+<page>
+  <title>Climbs of the Eastside</title>
+  <query>Why?</query>
+  <center lat="47.54645" lng="-121.8814675" />
+  <span lat="0.530799999999999" lng="1.04081500000001" />
+  <overlay panelStyle="/mapfiles/geocodepanel.xls">
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="A">
+      <point lat="47.701693" lng="-122.38989" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">100th</title>
+        <url>climbData/Climb_57.htm</url>
+        <length>0.6 mi</length>
+        <elevationgain>289</elevationgain>
+        <gradient>9</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="B">
+      <point lat="47.638564" lng="-122.195761" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">112th, 520 to downtown</title>
+        <url>climbData/Climb_25.htm</url>
+        <length>0.6 mi</length>
+        <elevationgain>163</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>8</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="C">
+      <point lat="47.576197" lng="-122.136554" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">153rd Ave SE</title>
+        <url>climbData/Climb_54.htm</url>
+        <length>1.7 mi</length>
+        <elevationgain>600</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>18</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="D">
+      <point lat="47.572421" lng="-122.121465" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">164th, up from Newport way</title>
+        <url>climbData/Climb_28.htm</url>
+        <length>1.0 mi</length>
+        <elevationgain>348</elevationgain>
+        <gradient>7</gradient>
+        <maxgradient>11</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="E">
+      <point lat="47.656605" lng="-122.084456" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">192nd Dr NE</title>
+        <url>climbData/Climb_40.htm</url>
+        <length>0.2 mi</length>
+        <elevationgain>172</elevationgain>
+        <gradient>14</gradient>
+        <maxgradient>16</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="F">
+      <point lat="47.638913" lng="-122.011188" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">244 Ave NE, south from 202</title>
+        <url>climbData/Climb_29.htm</url>
+        <length>0.4 mi</length>
+        <elevationgain>203</elevationgain>
+        <gradient>9</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="G">
+      <point lat="47.631049" lng="-122.097864" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">24th street</title>
+        <url>climbData/Climb_24.htm</url>
+        <length>0.3 mi</length>
+        <elevationgain>170</elevationgain>
+        <gradient>12</gradient>
+        <maxgradient>16</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="H">
+      <point lat="47.6508" lng="-122.360663" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">3rd Ave W</title>
+        <url>climbData/Climb_65.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>296</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="I">
+      <point lat="47.645903" lng="-122.114518" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">40th, bel-red to top</title>
+        <url>climbData/Climb_16.htm</url>
+        <length>0.6 mi</length>
+        <elevationgain>174</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>8</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="J">
+      <point lat="47.65776" lng="-122.1218" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">51st</title>
+        <url>climbData/Climb_4.htm</url>
+        <length>0.6 mi</length>
+        <elevationgain>254</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>11</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="K">
+      <point lat="47.667779" lng="-122.129049" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">520 trail</title>
+        <url>climbData/Climb_17.htm</url>
+        <length>1.4 mi</length>
+        <elevationgain>313</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="L">
+      <point lat="47.66506" lng="-122.36583" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">8th Ave NW</title>
+        <url>climbData/Climb_59.htm</url>
+        <length>1.6 mi</length>
+        <elevationgain>243</elevationgain>
+        <gradient>2</gradient>
+        <maxgradient>4</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="M">
+      <point lat="47.63141" lng="-121.99855" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Ames Lake</title>
+        <url>climbData/Climb_10.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>258</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>16</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="N">
+      <point lat="47.651128" lng="-122.117058" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Bel-red</title>
+        <url>climbData/Climb_15.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>294</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>7</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="O">
+      <point lat="47.712244" lng="-122.379177" />
+      <icon image="http://www.bicycleclimbs.com/marker_ b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Carkeek Park</title>
+        <url>climbData/Climb_55.htm</url>
+        <length>1.0 mi</length>
+        <elevationgain>348</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_ b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="P">
+      <point lat="47.74418" lng="-121.94165" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Cherry Valley Road</title>
+        <url>climbData/Climb_14.htm</url>
+        <length>1.5 mi</length>
+        <elevationgain>242</elevationgain>
+        <gradient>3</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="Q">
+      <point lat="47.632449" lng="-122.297941" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">E Galer St</title>
+        <url>climbData/Climb_51.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>342</elevationgain>
+        <gradient>7</gradient>
+        <maxgradient>16</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="R">
+      <point lat="47.579561" lng="-122.168907" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Factoria to BCC overpass</title>
+        <url>climbData/Climb_8.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>150</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>7</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="S">
+      <point lat="47.572861" lng="-121.943187" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Fall City - Issaquah</title>
+        <url>climbData/Climb_42.htm</url>
+        <length>1.0 mi</length>
+        <elevationgain>310</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="T">
+      <point lat="47.28105" lng="-122.0432" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Flaming Geyser</title>
+        <url>climbData/Climb_58.htm</url>
+        <length>0.9 mi</length>
+        <elevationgain>328</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="U">
+      <point lat="47.69044" lng="-122.401875" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Golden Gardens</title>
+        <url>climbData/Climb_56.htm</url>
+        <length>0.3 mi</length>
+        <elevationgain>231</elevationgain>
+        <gradient>16</gradient>
+        <maxgradient>25</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="V">
+      <point lat="47.81185" lng="-121.98189" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">High Rock Road</title>
+        <url>climbData/Climb_61.htm</url>
+        <length>3.3 mi</length>
+        <elevationgain>932</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="W">
+      <point lat="47.70924" lng="-122.23792" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Holmes Point Rd</title>
+        <url>climbData/Climb_52.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>229</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>11</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="X">
+      <point lat="47.622605" lng="-122.069378" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Inglewood</title>
+        <url>climbData/Climb_9.htm</url>
+        <length>0.5 mi</length>
+        <elevationgain>279</elevationgain>
+        <gradient>10</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="Y">
+      <point lat="47.544107" lng="-122.037162" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Issaquah - Fall City</title>
+        <url>climbData/Climb_33.htm</url>
+        <length>0.9 mi</length>
+        <elevationgain>340</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>20</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="Z">
+      <point lat="47.601786" lng="-122.333508" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">James St</title>
+        <url>climbData/Climb_49.htm</url>
+        <length>0.7 mi</length>
+        <elevationgain>327</elevationgain>
+        <gradient>9</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="[">
+      <point lat="47.751566" lng="-122.250012" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Juanita Drive, from North</title>
+        <url>climbData/Climb_21.htm</url>
+        <length>1.5 mi</length>
+        <elevationgain>407</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="\">
+      <point lat="47.702288" lng="-122.225909" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Juanita Drive, from South</title>
+        <url>climbData/Climb_20.htm</url>
+        <length>2.6 mi</length>
+        <elevationgain>384</elevationgain>
+        <gradient>3</gradient>
+        <maxgradient>8</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="]">
+      <point lat="47.58721" lng="-122.15963" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Kamber Road</title>
+        <url>climbData/Climb_27.htm</url>
+        <length>0.5 mi</length>
+        <elevationgain>221</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="^">
+      <point lat="47.682713" lng="-121.920133" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Kelly road from stillwater</title>
+        <url>climbData/Climb_13.htm</url>
+        <length>1.0 mi</length>
+        <elevationgain>217</elevationgain>
+        <gradient>3</gradient>
+        <maxgradient>9</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="_">
+      <point lat="47.59809" lng="-122.16292" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Lake Hills Connector</title>
+        <url>climbData/Climb_26.htm</url>
+        <length>0.5 mi</length>
+        <elevationgain>246</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="`">
+      <point lat="47.559739" lng="-122.099143" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Lakemont Blvd</title>
+        <url>climbData/Climb_34.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>521</elevationgain>
+        <gradient>9</gradient>
+        <maxgradient>15</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="a">
+      <point lat="47.676469" lng="-122.209364" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Market Street</title>
+        <url>climbData/Climb_18.htm</url>
+        <length>0.6 mi</length>
+        <elevationgain>156</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>6</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="b">
+      <point lat="47.556719" lng="-122.084542" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Montreux</title>
+        <url>climbData/Climb_7.htm</url>
+        <length>1.4 mi</length>
+        <elevationgain>712</elevationgain>
+        <gradient>10</gradient>
+        <maxgradient>24</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="c">
+      <point lat="47.53011" lng="-122.04104" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Mountain Park Blvd</title>
+        <url>climbData/Climb_36.htm</url>
+        <length>2.0 mi</length>
+        <elevationgain>993</elevationgain>
+        <gradient>10</gradient>
+        <maxgradient>20</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="d">
+      <point lat="47.69285" lng="-122.10067" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">NE 104th St</title>
+        <url>climbData/Climb_53.htm</url>
+        <length>0.4 mi</length>
+        <elevationgain>243</elevationgain>
+        <gradient>12</gradient>
+        <maxgradient>18</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="e">
+      <point lat="47.718344" lng="-122.189684" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">NE 132nd</title>
+        <url>climbData/Climb_64.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>156</elevationgain>
+        <gradient>3</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="f">
+      <point lat="47.73299" lng="-122.14232" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">NE 146th Pl</title>
+        <url>climbData/Climb_46.htm</url>
+        <length>1.3 mi</length>
+        <elevationgain>438</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="g">
+      <point lat="47.751303" lng="-122.152767" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">NE 171st St</title>
+        <url>climbData/Climb_48.htm</url>
+        <length>1.5 mi</length>
+        <elevationgain>494</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="h">
+      <point lat="47.753524" lng="-122.196211" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Norway Hill</title>
+        <url>climbData/Climb_37.htm</url>
+        <length>1.3 mi</length>
+        <elevationgain>395</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="i">
+      <point lat="47.732854" lng="-122.201635" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Norway Hill</title>
+        <url>climbData/Climb_38.htm</url>
+        <length>0.9 mi</length>
+        <elevationgain>265</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>6</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="j">
+      <point lat="47.68774" lng="-122.07989" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Novelty Hill</title>
+        <url>climbData/Climb_12.htm</url>
+        <length>2.2 mi</length>
+        <elevationgain>484</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="k">
+      <point lat="47.70495" lng="-122.00401" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Novelty Hill Road</title>
+        <url>climbData/Climb_44.htm</url>
+        <length>0.7 mi</length>
+        <elevationgain>385</elevationgain>
+        <gradient>10</gradient>
+        <maxgradient>15</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="l">
+      <point lat="47.67163" lng="-122.133273" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Old Redmond Road</title>
+        <url>climbData/Climb_63.htm</url>
+        <length>1.8 mi</length>
+        <elevationgain>382</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="m">
+      <point lat="47.65612" lng="-122.06272" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Sahalee Way</title>
+        <url>climbData/Climb_39.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>430</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>19</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="n">
+      <point lat="47.585998" lng="-122.111413" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">SE 26th, up from Lake Sammamish</title>
+        <url>climbData/Climb_31.htm</url>
+        <length>0.3 mi</length>
+        <elevationgain>191</elevationgain>
+        <gradient>11</gradient>
+        <maxgradient>11</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="o">
+      <point lat="47.579137" lng="-122.113211" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">SE 34th, up from Vasa Park</title>
+        <url>climbData/Climb_30.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>260</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>14</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="p">
+      <point lat="47.567309" lng="-122.054056" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">SE 43rd Way</title>
+        <url>climbData/Climb_32.htm</url>
+        <length>1.0 mi</length>
+        <elevationgain>401</elevationgain>
+        <gradient>7</gradient>
+        <maxgradient>20</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="q">
+      <point lat="47.53758" lng="-122.16583" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">SE 68th - Lakemont Blvd</title>
+        <url>climbData/Climb_35.htm</url>
+        <length>3.1 mi</length>
+        <elevationgain>458</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="r">
+      <point lat="47.72162" lng="-122.25731" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Seminary Road</title>
+        <url>climbData/Climb_19.htm</url>
+        <length>1.1 mi</length>
+        <elevationgain>405</elevationgain>
+        <gradient>7</gradient>
+        <maxgradient>15</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="s">
+      <point lat="47.553404" lng="-121.838981" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Snoqualmie Falls</title>
+        <url>climbData/Climb_66.htm</url>
+        <length>1.2 mi</length>
+        <elevationgain>312</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>12</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="t">
+      <point lat="47.47587" lng="-122.0265" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">South Tiger Mountain</title>
+        <url>climbData/Climb_43.htm</url>
+        <length>3.6 mi</length>
+        <elevationgain>1245</elevationgain>
+        <gradient>9</gradient>
+        <maxgradient>33</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="u">
+      <point lat="47.71155" lng="-121.36106" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Stevens Pass</title>
+        <url>climbData/Climb_62.htm</url>
+        <length>15.1 mi</length>
+        <elevationgain>3112</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>10</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="v">
+      <point lat="47.648649" lng="-122.342562" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Stone Way N.</title>
+        <url>climbData/Climb_50.htm</url>
+        <length>0.9 mi</length>
+        <elevationgain>189</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>8</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="w">
+      <point lat="47.613121" lng="-122.067466" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Thompson Hill Rd</title>
+        <url>climbData/Climb_41.htm</url>
+        <length>0.7 mi</length>
+        <elevationgain>299</elevationgain>
+        <gradient>7</gradient>
+        <maxgradient>11</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="x">
+      <point lat="47.646498" lng="-122.382202" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Thorndyke Ave</title>
+        <url>climbData/Climb_60.htm</url>
+        <length>0.9 mi</length>
+        <elevationgain>161</elevationgain>
+        <gradient>3</gradient>
+        <maxgradient>6</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="y">
+      <point lat="47.64445" lng="-121.96335" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Union Hill</title>
+        <url>climbData/Climb_11.htm</url>
+        <length>1.4 mi</length>
+        <elevationgain>288</elevationgain>
+        <gradient>4</gradient>
+        <maxgradient>9</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="z">
+      <point lat="47.67498" lng="-122.07799" />
+      <icon image="http://www.bicycleclimbs.com/marker_b.png" class="local" />
+      <info>
+        <title xml:space="preserve">Union Hill Road</title>
+        <url>climbData/Climb_45.htm</url>
+        <length>0.8 mi</length>
+        <elevationgain>293</elevationgain>
+        <gradient>6</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_b.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="{">
+      <point lat="47.732849" lng="-122.151676" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Winery Hill, 7 hills route</title>
+        <url>climbData/Climb_23.htm</url>
+        <length>0.7 mi</length>
+        <elevationgain>299</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>16</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="|">
+      <point lat="47.732849" lng="-122.151676" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Winery Hill, Main route</title>
+        <url>climbData/Climb_22.htm</url>
+        <length>0.7 mi</length>
+        <elevationgain>311</elevationgain>
+        <gradient>8</gradient>
+        <maxgradient>13</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="}">
+      <point lat="47.754387" lng="-122.152855" />
+      <icon image="http://www.bicycleclimbs.com/marker_c.png" class="local" />
+      <info>
+        <title xml:space="preserve">Woodinville Duvall Road</title>
+        <url>climbData/Climb_47.htm</url>
+        <length>1.3 mi</length>
+        <elevationgain>384</elevationgain>
+        <gradient>5</gradient>
+        <maxgradient>9</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_c.png</image>
+        <address />
+      </info>
+    </location>
+    <location infoStyle="http://www.bicycleclimbs.com/climbs.xsl" id="~">
+      <point lat="47.55432" lng="-122.07827" />
+      <icon image="http://www.bicycleclimbs.com/marker_a.png" class="local" />
+      <info>
+        <title xml:space="preserve">Zoo (L'Alp d'Issaquah)</title>
+        <url>climbData/Climb_6.htm</url>
+        <length>2.6 mi</length>
+        <elevationgain>1223</elevationgain>
+        <gradient>10</gradient>
+        <maxgradient>20</maxgradient>
+        <image>http://www.bicycleclimbs.com/marker_a.png</image>
+        <address />
+      </info>
+    </location>
+  </overlay>
+</page>

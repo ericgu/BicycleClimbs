@@ -1,0 +1,30 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<%@ Register TagPrefix="BC" Namespace="BicycleClimbsLibrary" Assembly="BicycleClimbsLibrary" %>
+<%@ Register TagPrefix="BC" Src="~/MyHeaderControl.ascx" TagName="MyHeaderControl" %>
+<%@ Register TagPrefix="BC" Src="~/ShowMap.ascx" TagName="ShowMap" %>
+<%@ Register TagPrefix="BC" Src="~/Gmap.ascx" TagName="GMapIncluder" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head id="Head2" runat="server">
+    <title runat="server" id="TitleControl">Untitled Page</title>
+    <link rel="SHORTCUT ICON" href="climber.ico" />
+    <!-- #Include File="vml.inc" -->
+    <BC:GMapIncluder id="GMapIncluder1" runat="server"/>
+    <BC:ShowMap id="p_map" runat="server"/>
+
+</head>
+<body bgcolor="#CCFFFF" onload="LoadMap();" onunload="GUnload();">
+    <BC:MyHeaderControl id="p_header" runat="server"/>
+    <h2 id="PageHeadingControl" runat="server"></h2>
+    <form id="form3" runat="server">
+    <div>
+       <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
+

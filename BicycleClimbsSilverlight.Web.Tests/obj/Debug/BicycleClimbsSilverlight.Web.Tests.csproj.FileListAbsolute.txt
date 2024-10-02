@@ -1,0 +1,8 @@
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\bin\Debug\BicycleClimbsSilverlight.Web.Tests.dll.config
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\bin\Debug\BicycleClimbsSilverlight.Web.Tests.dll
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\bin\Debug\BicycleClimbsSilverlight.Web.Tests.pdb
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\bin\Debug\BicycleClimbsSilverlight.Web.dll
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\bin\Debug\BicycleClimbsSilverlight.Web.pdb
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\obj\Debug\BicycleClimbsSilverlight.Web.Tests.dll
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight.Web.Tests\obj\Debug\BicycleClimbsSilverlight.Web.Tests.pdb

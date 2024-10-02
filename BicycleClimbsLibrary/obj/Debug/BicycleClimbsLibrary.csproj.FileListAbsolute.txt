@@ -1,0 +1,12 @@
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.dll.config
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\BicycleClimbsLibrary.dll
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\BicycleClimbsLibrary.pdb
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.dll
+C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.pdb
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.dll.config
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.dll
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\bin\Debug\BicycleClimbsLibrary.pdb
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\BicycleClimbsLibrary.dll
+C:\Data\bicycle\BicycleClimbs\BicycleClimbsLibrary\obj\Debug\BicycleClimbsLibrary.pdb

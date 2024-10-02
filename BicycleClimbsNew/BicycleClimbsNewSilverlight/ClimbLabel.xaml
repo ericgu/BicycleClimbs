@@ -1,0 +1,18 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl" x:Name="userControl"	mc:Ignorable="d"
+	x:Class="BicycleClimbsSilverlight.ClimbLabel" Width="83" Height="81">
+
+            <Canvas x:Name="canvas" m:MapLayer.PositionOrigin="BottomCenter" Opacity="0.7" RenderTransformOrigin="0.428,0.507" Margin="0" Width="83" Height="81">
+            	<Canvas.RenderTransform>
+            		<CompositeTransform x:Name="ClimbLabelScale" ScaleX="1" ScaleY="1"/>
+            	</Canvas.RenderTransform>
+                <Path x:Name="C_Path" Data="M8.7545042,4.1963911 C8.7888327,-0.23511614 57.298512,0.011585902 58.754505,4.1963911 C62.96373,21.997713 62.96405,38.054787 58.754505,54.196388 C54.819916,60.287659 40.833546,55.099991 37.11565,62.510948 L33.754505,84.196396 L29.856905,62.263916 C28.086479,55.594051 12.152642,59.546562 8.7545042,54.196388 C4.8941913,37.31369 4.7173214,19.774426 8.7545042,4.1963911" Fill="Red" Stroke="Black" UseLayoutRounding="False" Stretch="Fill" Margin="0" Height="81" Width="83" />
+                <TextBlock  TextWrapping="Wrap" x:Name="C_TextBlock" Foreground="White" TextAlignment="Center" VerticalAlignment="Top" Width="73" Margin="5,1,5,0" HorizontalAlignment="Center" >
+                        Space Needle
+                </TextBlock>
+            </Canvas>
+</UserControl>

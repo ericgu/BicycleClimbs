@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BicycleClimbsLibrary">
+</Property><Property Name="Solution File" Value="C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\BicycleClimbsLibrary.sln">
+</Property><Property Name="Date" Value="Sunday, June 13, 2010">
+</Property><Property Name="Time" Value="15:46:21 PM">
+</Property></Properties><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="BicycleClimbsLibrary.csproj" Description="Project file successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\BicycleClimbsLibrary.csproj">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="BicycleClimbsLibrary.csproj.user" Description="Project user file successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\BicycleClimbsLibrary.csproj.user">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Climb.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Climb.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="ClimbCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\ClimbCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="ClimbFilename.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\ClimbFilename.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="ClimbFilenameCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\ClimbFilenameCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Database.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Database.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="DataPoint.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\DataPoint.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="DataReader.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\DataReader.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="DataReaderFake.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\DataReaderFake.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="ElevationWebService.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\ElevationWebService.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="GraphAxis.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\GraphAxis.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="IDataReader.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\IDataReader.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Limits.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Limits.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Location.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Location.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="MyTable.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\MyTable.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="PathCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\PathCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="PathElevationCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\PathElevationCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="PathElevationPoint.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\PathElevationPoint.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="PathPoint.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\PathPoint.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="PathSegment.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\PathSegment.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="ProfileGraph.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\ProfileGraph.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Region.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Region.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="RegionCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\RegionCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Route.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Route.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="RouteCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\RouteCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="User.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\User.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="UserCollection.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\UserCollection.cs">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Web References\net.usgs.gisdata\Reference.cs" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Web References\net.usgs.gisdata\Reference.cs">
+</Event><Event ErrorLevel="2" Project="BicycleClimbsLibrary" Source="app.config" Description="Failed to backup file as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Web References\net.usgs.gisdata\elevation_service.wsdl" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Web References\net.usgs.gisdata\elevation_service.wsdl">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Web References\net.usgs.gisdata\Reference.map" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Web References\net.usgs.gisdata\Reference.map">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="Climber.ico" Description="File successfully backed up as C:\Data\My Documents\PROJECT\BicycleClimbs\BicycleClimbsLibrary\Backup\Climber.ico">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="BicycleClimbsLibrary.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BicycleClimbsLibrary" Source="BicycleClimbsLibrary.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="BicycleClimbsLibrary" Source="app.config" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="BicycleClimbsLibrary" Source="app.config" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="BicycleClimbsLibrary" Source="BicycleClimbsLibrary.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

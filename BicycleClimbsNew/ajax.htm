@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+</head>
+
+<script type="text/javascript">
+<!--
+
+function DataReady()
+{
+    if (http_request.readyState == 4)
+    {
+        Test.innerHTML = http_request.responseText;
+    } else 
+    {
+        // wait...
+    } 
+}
+
+if (window.XMLHttpRequest) { // Mozilla, Safari, ...
+    http_request = new XMLHttpRequest();
+} else if (window.ActiveXObject) { // IE
+    http_request = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
+http_request.onreadystatechange = DataReady; 
+
+function SendRequest()
+{
+    http_request.open('POST', 'http://localhost/bicycleclimbs/FetchElevation.aspx?Latitude=47.744&Longitude=-121.94', true);
+    http_request.send(null);
+}
+
+// -->
+</script>
+
+<body>
+
+Test
+
+<input id="Button1" type="button" value="Send" onclick=SendRequest(); />
+
+<div id="Test"></div>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Climbs.aspx.cs" Inherits="Climbs" %>
+
+<%@ Register TagPrefix="BC" Namespace="BicycleClimbsLibrary" Assembly="BicycleClimbsLibrary" %>
+<%@ Register TagPrefix="BC" Src="~/Gmap.ascx" TagName="GMapIncluder" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <title>&nbsp;Bicycle Climbs of Seattle</title>
+    <BC:GMapIncluder id="p_includer" runat="server"/>
+ 
+
+    <script id="p_googleMapsUrl" type="text/javascript" runat="server"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+var markerArr;
+var infoStorage;
+var map;
+
+// Creates a marker whose info window displays the given number
+function createMarker(point, number, xmlMarker, info) {
+
+  var iconTags = xmlMarker.getElementsByTagName("icon");
+  var iconTag = iconTags[0];
+  var filename = iconTag.getAttribute("image");
+
+  var icon = new GIcon();
+  icon.image = filename;
+  icon.iconSize = new GSize(20, 34);
+  icon.shadowSize = new GSize(37, 34);
+  icon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+  icon.iconAnchor = new GPoint(9, 34);
+  icon.infoWindowAnchor = new GPoint(9, 2);
+  icon.infoShadowAnchor = new GPoint(18, 25);
+  
+  var marker = new GMarker(point, icon);
+
+  GEvent.addListener(marker, "click", function() {
+    marker.openInfoWindowXslt(info, "/climbs.xsl"); 
+  });
+
+  return marker;
+}
+   
+// Open the info box for the specified marker.
+function popup( i )
+{
+    markerArr[i].openInfoWindowXslt( infoStorage[i], "/climbs.xsl" );
+    map.zoomTo(5);
+}
+ 
+function onLoad() {
+	      // Using XML and Asynchronous RPC ("AJAX") with Maps
+	      //
+	      // In this example, we download a static file ("data.xml") that contains a
+	      // list of lat/lng coordinates in XML. When the download completes, we parse
+	      // the XML and create a marker at each of those lat/lngs.
+      
+	      // Center the map on Palo Alto
+	map = new GMap(document.getElementById("map"));
+	map.addControl(new GSmallMapControl());
+	map.addControl(new GMapTypeControl());
+      //map.centerAndZoom(new GPoint(-122.141944, 37.441944), 4);
+ 
+	var panel = document.getElementById( 'panel' );
+     
+      // Download the data in data.xml and load it on the map. The format we
+      // expect is:
+      // <markers>
+      //   <marker lat="37.441" lng="-122.141"/>
+      //   <marker lat="37.322" lng="-121.213"/>
+      // </markers>
+	var request = GXmlHttp.create();
+		//request.open("GET", "newxmlversion3.xml", true);
+	request.open("GET", "climbs.xml", true);
+	request.onreadystatechange = function() 
+	{
+		if (request.readyState == 4) 
+		{
+			var xmlDoc = request.responseXML;
+          
+			var center = xmlDoc.documentElement.getElementsByTagName("center"); 
+ 	    	var lng = parseFloat (center[0].getAttribute( "lng"));
+ 	    	var lat = parseFloat (center[0].getAttribute( "lat"));
+
+        	map.centerAndZoom( new GPoint( lng, lat ), 7 ); 
+          
+        	var locations = xmlDoc.documentElement.getElementsByTagName("location");
+        	infoStorage = new Array( locations.length );
+			var panelText = "";
+
+			markerArr = new Array(locations.length);
+
+        	for (var i = 0; i < locations.length; i++)
+        	{
+				var points = locations[i].getElementsByTagName("point");
+				lat = parseFloat(points[0].getAttribute("lat"));
+				lng = parseFloat(points[0].getAttribute("lng"));
+				var point = new GPoint(lng, lat);
+			
+				var info = locations[i].getElementsByTagName("info")[0];
+				infoStorage[i] = info;
+  
+				var marker = createMarker(point, i + 1, locations[i], info);
+			
+				map.addOverlay(marker);
+				markerArr[i] = marker;
+    			
+  				var titles = info.getElementsByTagName("title");
+  				
+	    		var link = '<a href="javascript:popup( ' + i + ' )">';
+  				  				
+  				panelText += link;
+  				
+  				var title = titles[0];
+  				panelText += title.firstChild.nodeValue;
+ 				panelText += "</A><br>";
+
+       	}
+         	panel.innerHTML = panelText;
+
+         //var page = xmlDoc.documentElement.getElementsByTagName("page");
+          
+         //var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+         //for (var i = 0; i < markers.length; i++) {
+         // var point = new GPoint(parseFloat(markers[i].getAttribute("lng")),
+         //                      parseFloat(markers[i].getAttribute("lat")));
+   		 // var marker = createMarker(point, i + 1, markers[i]);
+         //map.addOverlay(marker);
+         //}
+          
+         	panelText += "</table>";
+         	//panel.innerHTML = panelText;
+		}
+    };
+   	request.send(null);
+}
+
+    //]]>
+    </script>
+  </head>
+  <body onload="onLoad()" bgcolor="#CCFFFF">
+    <table border="0" width ="958" cellspacing="1" id="table1" bgcolor="#000000" cellpadding="5">
+		<tr>
+			<td width="210" align="center"><font size="5" color="#FFFFFF">BicycleClimbs.com</font><p align="left">
+			<font color="#FF0000" face="Arial Black" size="2"><i>Because pain is 
+			the sign of <br>
+			weakness leaving your body</i></font></td>
+			<td width="728" height="90"><script type="text/javascript"><!--
+google_ad_client = "pub-5589402870024226";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+		</tr>
+		</table>
+		
+   <table border="0" cellspacing="1" id="table2" bgcolor="#000000" cellpadding="5" width="958">
+		<tr>
+			<td align="center" width="133">
+			<font face="Arial Black" size="2" color="#FFCC00">
+			<a href="/climbsnew.htm"><font color="#FFCC00">
+			<span style="text-decoration: none">Home</span></font></a></font>me</td>			
+			<td align="center" width="163">
+			<font face="Arial Black" color="#FFCC00" size="2">
+			<a href=""><font color="#FFCC00">
+			<span style="text-decoration: none">Lists of Climbs</span></font></a></font></td>			
+			<td align="center" width="157">
+			<font size="2" color="#FFCC00" face="Arial Black">
+			<a href=""><font color="#FFCC00">
+			<span style="text-decoration: none">About</span></font></a></font></td>
+			<td align="center" width="151">
+			<font face="Arial Black" size="2" color="#FFCC00">
+			<a style="color: #FFCC00; text-decoration: none" href="">RSS Feed</a></font></td>
+			<td align="center" width="320">
+			&nbsp;</tr>
+	</table>
+
+		
+	<table border="1" bordercolor="#CCFFFF"><tr>
+		<td valign="top" bordercolor="#000000"><div id="map" style="width:600px; height:600px"></div></td>
+		<td valign="top" height="600"><div id="panel" style="height:600 px">
+			Loading...</div></td>
+	</tr></table>
+    <div id="message"></div>
+  </body>
+</html>

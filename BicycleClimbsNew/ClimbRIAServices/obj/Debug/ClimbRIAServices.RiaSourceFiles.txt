@@ -1,0 +1,1 @@
+C:\Data\bicycle\BicycleClimbsNew\ClimbRIAServices.Web\ClimbRIAServices.Web.csproj,634194927817762100,Class1.cs,Properties\AssemblyInfo.cs,

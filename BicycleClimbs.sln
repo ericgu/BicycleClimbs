@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleClimbsSilverlight", "BicycleClimbsSilverlight\BicycleClimbsSilverlight.csproj", "{577EEF44-F12F-40AA-B4D7-B32735A4CFE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AF870C9-588F-4FB0-9B0A-69A696665031} = {8AF870C9-588F-4FB0-9B0A-69A696665031}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleClimbsSilverlight.Web", "BicycleClimbsSilverlight.Web\BicycleClimbsSilverlight.Web.csproj", "{8AF870C9-588F-4FB0-9B0A-69A696665031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleClimbsSilverlight.Web.Tests", "BicycleClimbsSilverlight.Web.Tests\BicycleClimbsSilverlight.Web.Tests.csproj", "{9DB4375C-75CD-473F-BA6B-D0C976A1943C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarminManager", "..\GarminManager\GarminManager.csproj", "{9CB11DE6-5A00-4381-8CED-8EE73F396B9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{577EEF44-F12F-40AA-B4D7-B32735A4CFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577EEF44-F12F-40AA-B4D7-B32735A4CFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577EEF44-F12F-40AA-B4D7-B32735A4CFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577EEF44-F12F-40AA-B4D7-B32735A4CFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF870C9-588F-4FB0-9B0A-69A696665031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF870C9-588F-4FB0-9B0A-69A696665031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF870C9-588F-4FB0-9B0A-69A696665031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF870C9-588F-4FB0-9B0A-69A696665031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB4375C-75CD-473F-BA6B-D0C976A1943C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB4375C-75CD-473F-BA6B-D0C976A1943C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB4375C-75CD-473F-BA6B-D0C976A1943C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB4375C-75CD-473F-BA6B-D0C976A1943C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB11DE6-5A00-4381-8CED-8EE73F396B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB11DE6-5A00-4381-8CED-8EE73F396B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB11DE6-5A00-4381-8CED-8EE73F396B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB11DE6-5A00-4381-8CED-8EE73F396B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

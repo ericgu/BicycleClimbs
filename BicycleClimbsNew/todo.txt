@@ -1,0 +1,18 @@
+Todo:
+
+1) Make "add climb" link pass the lat/long of the center of the map so that it starts at the appropriate spot. 
+2) Support climbs on a ride. Perhaps allow them to add a climb to a ride by clicking in the popup window. 
+3) Add annotations to the climb - a floating note at any point on the climb. 
+
+
+2) Add gradient plot to the profile, using points X feet apart (where X ~~ 250 feet).
+
+
+7) Discussion thread per climb
+10) Climbs within a radius of a point
+11) User-generated climb rankings
+12) Ratings on quality of the data
+13) Submit new information for an existing climb
+14) Pictures for the climb?
+16) Create ride, add climbs to the ride
+                                                                                                                                                                                                                                                                                                                                                                                                                           

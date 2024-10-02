@@ -1,0 +1,1 @@
+c:\data\bicycle\BicycleClimbs\BicycleClimbsSilverlight\Generated_Code\BicycleClimbsSilverlight.Web.g.cs

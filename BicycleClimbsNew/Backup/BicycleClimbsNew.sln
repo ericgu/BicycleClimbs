@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BicycleClimbsNew", ".", "{E370ADC8-9184-4ADE-A20B-795914A3FDA6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/BicycleClimbsNew"
+		Debug.AspNetCompiler.PhysicalPath = "..\BicycleClimbsNew\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BicycleClimbsNew\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BicycleClimbsNew"
+		Release.AspNetCompiler.PhysicalPath = "..\BicycleClimbsNew\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BicycleClimbsNew\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63541"
+		ProjOutputReferences = "{64F63123-E487-4BB9-8A42-D0863D5BD80C}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleClimbsNewSilverlight", "BicycleClimbsNewSilverlight\BicycleClimbsNewSilverlight.csproj", "{64F63123-E487-4BB9-8A42-D0863D5BD80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClimbRIAServices", "ClimbRIAServices", "{4DB71DC6-00C2-46FC-BFC5-0571AB393BDB}"
+	ProjectSection(SolutionItems) = preProject
+		BicycleClimbsData.dbml = BicycleClimbsData.dbml
+		BicycleClimbsData.dbml.layout = BicycleClimbsData.dbml.layout
+		BicycleClimbsData.designer.cs = BicycleClimbsData.designer.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbRIAServices.Web", "ClimbRIAServices.Web\ClimbRIAServices.Web.csproj", "{CF968B40-8B27-4F81-BF89-72AC619CF0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbRIAServices", "ClimbRIAServices\ClimbRIAServices.csproj", "{CA17FF30-29C8-4877-A248-AFFABA37C6AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB} = {CF968B40-8B27-4F81-BF89-72AC619CF0DB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E370ADC8-9184-4ADE-A20B-795914A3FDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E370ADC8-9184-4ADE-A20B-795914A3FDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E370ADC8-9184-4ADE-A20B-795914A3FDA6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E370ADC8-9184-4ADE-A20B-795914A3FDA6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{64F63123-E487-4BB9-8A42-D0863D5BD80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F63123-E487-4BB9-8A42-D0863D5BD80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F63123-E487-4BB9-8A42-D0863D5BD80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F63123-E487-4BB9-8A42-D0863D5BD80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA17FF30-29C8-4877-A248-AFFABA37C6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA17FF30-29C8-4877-A248-AFFABA37C6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA17FF30-29C8-4877-A248-AFFABA37C6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA17FF30-29C8-4877-A248-AFFABA37C6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF968B40-8B27-4F81-BF89-72AC619CF0DB} = {4DB71DC6-00C2-46FC-BFC5-0571AB393BDB}
+		{CA17FF30-29C8-4877-A248-AFFABA37C6AD} = {4DB71DC6-00C2-46FC-BFC5-0571AB393BDB}
+	EndGlobalSection
+EndGlobal

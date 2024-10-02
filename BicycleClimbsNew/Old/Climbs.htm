@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>&nbsp;Bicycle Climbs of Seattle</title>
+
+    <script src="http://maps.google.com/maps?file=api&v=1&key=ABQIAAAAiZoAf08AX4ClzrJYaSSV9xTBqWC_ogAKx9eKDib7mMgLWMMJihSZyN8JqLbPnobFKQ6qF5XkAEZRDg" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+var markerArr;
+var infoStorage;
+var map;
+
+// Creates a marker whose info window displays the given number
+function createMarker(point, number, xmlMarker, info) {
+
+  var iconTags = xmlMarker.getElementsByTagName("icon");
+  var iconTag = iconTags[0];
+  var filename = iconTag.getAttribute("image");
+
+  var icon = new GIcon();
+  icon.image = filename;
+  icon.iconSize = new GSize(20, 34);
+  icon.shadowSize = new GSize(37, 34);
+  icon.iconAnchor = new GPoint(9, 34);
+  icon.infoWindowAnchor = new GPoint(9, 2);
+  icon.infoShadowAnchor = new GPoint(18, 25);
+  
+  var marker = new GMarker(point, icon);
+
+  GEvent.addListener(marker, "click", function() {
+    marker.openInfoWindowXslt(info, "/climbs.xsl"); 
+  });
+
+  return marker;
+}
+   
+// Open the info box for the specified marker.
+function popup( i )
+{
+    markerArr[i].openInfoWindowXslt( infoStorage[i], "/climbs.xsl" );
+    map.zoomTo(5);
+}
+ 
+function onLoad() {
+	      // Using XML and Asynchronous RPC ("AJAX") with Maps
+	      //
+	      // In this example, we download a static file ("data.xml") that contains a
+	      // list of lat/lng coordinates in XML. When the download completes, we parse
+	      // the XML and create a marker at each of those lat/lngs.
+      
+	      // Center the map on Palo Alto
+	map = new GMap(document.getElementById("map"));
+	map.addControl(new GSmallMapControl());
+	map.addControl(new GMapTypeControl());
+      //map.centerAndZoom(new GPoint(-122.141944, 37.441944), 4);
+ 
+	var panel = document.getElementById( 'panel' );
+     
+      // Download the data in data.xml and load it on the map. The format we
+      // expect is:
+      // <markers>
+      //   <marker lat="37.441" lng="-122.141"/>
+      //   <marker lat="37.322" lng="-121.213"/>
+      // </markers>
+	var request = GXmlHttp.create();
+		//request.open("GET", "newxmlversion3.xml", true);
+	request.open("GET", "climbs.xml", true);
+	request.onreadystatechange = function() 
+	{
+		if (request.readyState == 4) 
+		{
+			var xmlDoc = request.responseXML;
+          
+			var center = xmlDoc.documentElement.getElementsByTagName("center"); 
+ 	    	var lng = parseFloat (center[0].getAttribute( "lng"));
+ 	    	var lat = parseFloat (center[0].getAttribute( "lat"));
+
+        	map.centerAndZoom( new GPoint( lng, lat ), 7 ); 
+          
+        	var locations = xmlDoc.documentElement.getElementsByTagName("location");
+        	infoStorage = new Array( locations.length );
+			var panelText = "";
+
+			markerArr = new Array(locations.length);
+
+        	for (var i = 0; i < locations.length; i++)
+        	{
+				var points = locations[i].getElementsByTagName("point");
+				lat = parseFloat(points[0].getAttribute("lat"));
+				lng = parseFloat(points[0].getAttribute("lng"));
+				var point = new GPoint(lng, lat);
+			
+				var info = locations[i].getElementsByTagName("info")[0];
+				infoStorage[i] = info;
+  
+				var marker = createMarker(point, i + 1, locations[i], info);
+			
+				map.addOverlay(marker);
+				markerArr[i] = marker;
+    			
+  				var titles = info.getElementsByTagName("title");
+  				
+	    		var link = '<a href="javascript:popup( ' + i + ' )">';
+  				  				
+  				panelText += link;
+  				
+  				var title = titles[0];
+  				panelText += title.firstChild.nodeValue;
+ 				panelText += "</A><br>";
+
+       	}
+         	panel.innerHTML = panelText;
+
+         //var page = xmlDoc.documentElement.getElementsByTagName("page");
+          
+         //var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+         //for (var i = 0; i < markers.length; i++) {
+         // var point = new GPoint(parseFloat(markers[i].getAttribute("lng")),
+         //                      parseFloat(markers[i].getAttribute("lat")));
+   		 // var marker = createMarker(point, i + 1, markers[i]);
+         //map.addOverlay(marker);
+         //}
+          
+         	panelText += "</table>";
+         	//panel.innerHTML = panelText;
+		}
+    };
+   	request.send(null);
+}
+
+    //]]>
+    </script>
+  </head>
+  <body onload="onLoad()">
+    <h2>Bicycle Climbs of Seattle</h2>
+    <p>Welcome to the Bicycle Climbs of Seattle. Click on one of the markers to bring up the overview information, and then click on the link to go to the detailed information. </p>
+	<p>If you would like to add climbs to this map, please send email to
+	<a href="mailto:ericgu@microsoft.com?subject=Bicycle Climb">Eric</a>. </p>
+	<p><a href="http://ericgunnerson.members.winisp.net/fullrss.xml">RSS Feed of 
+	all climbs</a></p>
+	<p>Climbs ordered by</p>
+	<ul>
+		<li><a href="ClimbData/ClimbsByElevationGain.htm">Elevation Gain</a></li>
+		<li><a href="ClimbData/ClimbsByGradient.htm">Gradient</a></li>
+		<li><a href="ClimbData/ClimbsByMaxGradient.htm">Max Gradient</a> (note 
+		that this is estimated, and not very well...)</li>
+	</ul>
+	<table border="0"><tr>
+		<td valign="top"><div id="map" style="width:600px; height:600px"></div></td>
+		<td valign="top"><div id="panel"></div></td>
+	</tr></table>
+    <div id="message"></div>
+  </body>
+</html>
